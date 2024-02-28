@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "245443582356",
+    "firebase_url": "https://fir-cli-11b20-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-cli-11b20",
+    "storage_bucket": "fir-cli-11b20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245443582356:android:6e900644bc8d47f9dad781",
+        "android_client_info": {
+          "package_name": "com.vechcli.firebase_cli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBumRWHD-9d_d1qJgOES0S1uqAZOqBo2kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
