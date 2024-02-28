@@ -4,6 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 void main() async {
+  // TODO:  NEED THIS FOR EVERY FLUTTER PORJECT
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // TODO:  NEED THIS FOR EVERY FLUTTER FIREBASE PORJECT
+
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -38,11 +43,7 @@ class MyApp extends StatelessWidget {
             onPressed: () async {
               //dynamic result = _auth.signInAnon();
               User? result = await _auth.signInAnon();
-              if (result == null) {
-                print('Error signing in');
-              } else {
-                print('Signed in: ${result.uid}');
-              }
+              print('Signed in: ${result?.uid}');
             },
           ),
         ),
